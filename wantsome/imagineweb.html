@@ -5,26 +5,47 @@
             ul {text-decoration-color: violet; }
             section.border {border: 10px yellow}
             section { align:left; }
+
+        nav {
+            color:palevioletred;
+        }
+
+        div.absolute {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 110px;
+            border: 3px solid palevioletred;
+        }
+        div.absolute2 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100px;
+            height: 100px;
+            border: 3px solid yellow;
+        }
         </style>
 
 
     </head>
     <body>
 
-        <div>
-        <ul> 
-            <li> <label >Home</label></li> 
-            <li> <label >Taco Menu</label></li> 
-            <li> <label >Draft List </label></li> 
-            <li>  <label>Hours</label></li> 
-            <li> <label>Directors</label></li> 
-            <li>  <label>Contact</label></li> 
-        </ul>
-        <section> The x style for... </section> <br>
-        <section> Loren.. </section> <br>
-        <section> Notice what .. </section> <br>
-        <footer> If you.... 
-        </footer>
+        <div class="absolute"> <nav>
+                <li> <label >Home</label></li> 
+                <li> <label >Taco Menu</label></li> 
+                <li> <label >Draft List </label></li> 
+                <li>  <label>Hours</label></li> 
+                <li> <label>Directors</label></li> 
+                <li>  <label>Contact</label></li> 
+        </nav> </div>
+        <div class="absolute2">
+        <section> The x style for... </section> </div>
+
+        <section> Loren.. </section>
+        <section> Notice what .. </section> 
+        <footer> If you.... </footer>
         </div> 
 
         
