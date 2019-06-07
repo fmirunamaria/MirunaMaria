@@ -2,16 +2,14 @@
 <html>
     <head>
         <style>
-            ul {text-decoration-color: violet; }
-            section.border {border: 10px yellow}
-            section { align:left; }
 
         nav {
             color:palevioletred;
         }
 
         div.absolute {
-            position: relative;
+            
+            position: absolute ;
             top: 0;
             left: 0;
             width: 300px;
@@ -19,18 +17,64 @@
             border: 3px solid palevioletred;
         }
         div.absolute2 {
+            margin-left: 0 ;
             position: absolute;
             top: 0;
             right: 0;
-            width: 100px;
-            height: 100px;
+            left: 305px ;
+            width:1000px ;
+            height: 110px;
             border: 3px solid yellow;
+        }
+        div.absolute3 {
+            margin-left: 0 ;
+            position: absolute;
+            top: 112px;
+            right: 0;
+            left: 305px ;
+            width:1000px ;
+            height: 110px;
+            border: 3px solid yellow;
+        }
+        div.absolute4 {
+            margin-left: 0 ;
+            position: absolute;
+            top: 224px;
+            right: 0;
+            left: 305px ;
+            width:1000px ;
+            height: 110px;
+            border: 3px solid yellow;
+        }
+        div.absolute5 {
+            margin-left: 0 ;
+            position: absolute;
+            top: 338px;
+            right:0 ;
+            left:0 ;
+            width:1305px ;
+            height: 110px;
+            border: 3px solid green;
+        }
+        div.absolute6 {
+            margin-left: 0 ;
+            position: relative;
+            bottom: 0;
+            right:0 ;
+            left:0 ;
+            width:1305px ;
+            height: 0;
+            border: 5px solid cornflowerblue;
         }
         </style>
 
 
+
     </head>
     <body>
+
+        <div class="absolute6">
+         <container>
 
         <div class="absolute"> <nav>
                 <li> <label >Home</label></li> 
@@ -42,11 +86,21 @@
         </nav> </div>
         <div class="absolute2">
         <section> The x style for... </section> </div>
+        
+        <div class="absolute3">
+        <section> Loren.. </section> </div>
 
-        <section> Loren.. </section>
-        <section> Notice what .. </section> 
-        <footer> If you.... </footer>
+        <div class="absolute4">
+        <section> Notice what .. </section> </div>
+
+        <div class="absolute5">
+        <footer> If you.... </footer> </div>
         </div> 
+
+        </container> </div>
+        </div> 
+
+
 
         
 
