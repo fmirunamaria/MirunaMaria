@@ -1,4 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+
+    <body>
+            <ul>
+            
+                    <li style="border-top-color:green; border-top-width:1px ; border-top-style:solid ">First<a href="http://google.com/">link</a></li> 
+                    <ol style=" color:green" >Second <a href="http://google.com/">link</a> </ol>
+                    <li style="background-color:midnightblue">Third <a style="color:red" href="http://google.com/">link</a> </li>
+                    <li style="color:green"  >Fourth <a href="http://google.com/"  >link</a> </li>
+                    <ol >Fifth <a style=" color:red" ; onmouseover="this.style.color='gray'"; onmouseout="this.style.color='black'" ; href="http://google.com/">link</a> </ol>
+                    <li style="color:green" > Sixth <a  href="http://google.com/">link</a> </li>
+                    <li style="border-bottom-color:midnightblue; border-bottom-width: 5px ; border-bottom-style:dotted ">Seveneth <a href="http://google.com/">link</a> </li>
+            
+            </ul>
+            
+                <input placeholder="first name" type="text" name="first name" style="color:green" > <br>
+                <input placeholder="last name" type="text" name="last name" style="color:midnightblue" > <br>
+                <input placeholder="password" type="password" name="password" type="hidden" > <br>
+                <input placeholder="email" type="email" name="email" id="name" onfocus="myFunction(this.id)" >  <br>
+
+                <script>
+                        function myFunction(x) {
+                          document.getElementById(x).style.background = "red";
+                          document.getElementById(x).style.color="pink";
+                        }
+                        </script>
+
+               
+                <input onmouseover="this.style.color='red'" onmouseout="this.style.color='black'" type="submit" value="SEND"/>
 
 
+    </body>
 
-<a href="http://test.com/" style="color: green;">Click!</a>
+</html>
