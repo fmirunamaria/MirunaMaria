@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+body {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#header {
+  background-color: blueviolet;
+  height: 15vh;
+  flex: 1 100%;
+}
+
+#footer {
+  height: 15vh;
+  background-color: brown;
+  flex: 1 100%;
+}
+
+#left-sidebar {
+  background-color: yellowgreen;
+  flex: 1;
+  height: 70vh;
+}
+
+#main-content {
+  background-color: aqua;
+  flex: 3;
+  height: 70vh;
+}
+
+#right-sidebar {
+  flex: 1;
+  background-color: beige;
+  height: 70vh;
+}
+    </style>
+  </head>
+
+  <body>
+    <div id="header">
+      header
+    </div>
+
+    <div id="left-sidebar">
+      left sidebar
+    </div>
+    <div id="main-content">
+      main content
+    </div>
+    <div id="right-sidebar">
+      right sidebar
+    </div>
+
+    <div id="footer">
+      footer
+    </div>
+  </body>
+</html>
