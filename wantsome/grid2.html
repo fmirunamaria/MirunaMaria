@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='UTF-8'/>
+        <style>
+            
+            @media (max-width: 720px)  { .container { display:grid; width:100% ;} }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.vertical {
+  grid-column: 1;
+  grid-row: 1/3 ;
+  background-color:cyan
+}
+.middle { 
+  grid-column: 2 / 3;
+  grid-row: 1 /5 ;
+  background-color: blue;
+  align-items: center;
+}
+.tall {
+  grid-column: 3/4;
+  grid-row: 1/7;
+  background-color:rgb(73, 190, 73);
+}
+.tiles {
+  grid-column: 1;
+  grid-row: 3/5;
+  background-color:rgb(231, 206, 62);
+}
+.wide {
+  grid-column: 1/3;
+  grid-row: 5/7;
+  background-color:rgb(226, 85, 109);
+}
+        </style>
+    </head>
+
+    <body>
+            <div class="container">
+                    <div class="vertical">Vertical..</div>
+                    <div class="middle">Middle tile <br> 
+                        <img src="https://previews.123rf.com/images/kotokomi/kotokomi1606/kotokomi160600032/58792918-just-imagine-inspirational-quote-vector-calligraphy-black-modern-lettering-isolated-on-white-backgro.jpg" alt="image" width="400" height="300" style="vertical-align:middle" >
+                    </div>
+                    <div class="tall">Tall tile</div>
+                    <div class="tiles">..Tiles</div>
+                    <div class="wide">Wide tile</div>
+                  </div>
+
+    </body>
+</html>

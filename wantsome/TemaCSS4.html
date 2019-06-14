@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+@media (max-width: 720px)  { .body { display:flex; align-items:stretch;flex-direction:row ;} }
+
+.body {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    
+}
+.part1 div{ flex-direction:row}
+.part2 div {flex-direction:column}
+
+
+#vertical {
+  background-color:turquoise ;
+  height:160px;
+  margin:5px;
+  width:450px;
+  flex:1 ;
+  
+
+}
+
+#middletile {
+  background-color: blue; 
+  margin:5px;
+  height: 320px;
+  width:450px;
+  flex:1;
+  float:left;
+ 
+}
+
+#taltile {
+  background-color:rgb(42, 201, 42); 
+  margin:5px;
+  height:620px;
+  width:300px;
+  flex:2;
+}
+
+
+#tiles {
+  background-color: yellow;
+  margin:5px;
+  flex-basis: 30%;
+  height:160px;
+  width:450px;
+  
+}
+
+#widetile {
+  background-color: rgb(231, 94, 117);
+  margin:5px;
+  height:300px;
+  width:900px;
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+  <div class="body">
+    <div class="part1" >
+
+    <div id="vertical">
+      vertical...
+    </div>
+    <div id="tiles">
+      tiles
+    </div>
+    <div id="widetile">
+      wide tile
+    </div> 
+
+  </div>
+
+
+    <div id="middletile">
+      middle tile
+    </div>
+    <div id="taltile">
+      tal tile
+    </div>
+
+  
+
+  </div>
+
+
+</body>
+</html>
