@@ -1,0 +1,34 @@
+.pacman {
+    width: 0px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-top: 60px solid black;
+    border-left: 60px solid black;
+    border-bottom: 60px solid black;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+  }
+
+@-webkit-keyframes flip {
+    0% {
+        -webkit-transform: translateX(0) translateY(0);
+                transform: translateX(0) translateY(0);
+    }
+    25% {
+        -webkit-transform: translateX(500px) translateY(0);
+                transform: translateX(500px) translateY(0);
+    }
+}
+@keyframes flip {
+    0% {
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    25% {
+      -webkit-transform: translateX(500px) translateY(0);
+              transform: translateX(500px) translateY(0);
+    }
+}

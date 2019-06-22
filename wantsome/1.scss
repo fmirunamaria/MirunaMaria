@@ -1,0 +1,38 @@
+@import '_2.scss';
+@import '_3.scss';
+
+.pacman {
+    width: 0px;
+    height: 0px;
+    border-right: $atreia solid transparent;
+    border-top: $atreia solid $prima;
+    border-left: $atreia solid$prima;
+    border-bottom: $atreia solid $prima;
+    border-top-left-radius: $adoua ;
+    border-top-right-radius: $adoua;
+    border-bottom-left-radius: $adoua;
+    border-bottom-right-radius: $adoua ;
+    -webkit-animation: flip 1s ease-100 in-out;
+    animation: flip 1s ease-in-out;
+  }
+
+@-webkit-keyframes flip {
+    0% {
+        -webkit-transform: translateX(0) translateY(0);
+                transform: translateX(0) translateY(0);
+    }
+    25% {
+        -webkit-transform: translateX(500px) translateY(0);
+                transform: translateX(500px) translateY(0);
+    }
+}
+@keyframes flip {
+    0% {
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    25% {
+      -webkit-transform: translateX(500px) translateY(0);
+              transform: translateX(500px) translateY(0);
+    }
+}
