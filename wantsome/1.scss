@@ -1,9 +1,7 @@
 @import '_2.scss';
-@import '_3.scss';
 
 .pacman {
-    width: 0px;
-    height: 0px;
+
     border-right: $atreia solid transparent;
     border-top: $atreia solid $prima;
     border-left: $atreia solid$prima;
